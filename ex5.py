@@ -1,4 +1,4 @@
-def mod_number(a, b):
+def mod_number(a, b) -> int:
     if b == 0:
         raise ValueError("Нельзя делить на ноль")
     if a >= 0:
