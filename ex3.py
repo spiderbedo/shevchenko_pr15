@@ -1,4 +1,4 @@
-def progress(a1, r, n):
+def progress(a1, r, n) -> int:
     if n == 1:
         return a1
     return progress(a1, r, n - 1) + r
