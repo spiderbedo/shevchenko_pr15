@@ -1,4 +1,4 @@
-def pownum(a, n):
+def pownum(a, n) -> int:
     if n == 1:
         return a
     return a * pownum(a, n - 1)
