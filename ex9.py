@@ -5,4 +5,4 @@ def combin(n, k) -> int:
 
 
 if __name__ == "__main__":
-    print(nod(int(input()), int(input())))
+    print(combin(int(input()), int(input())))
