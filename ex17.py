@@ -1,6 +1,6 @@
 import math
 
-def is_prime_rec(x, d):
+def is_prime_rec(x, d) -> int:
     if d > math.sqrt(x):
         return 1
     if x % d == 0:
@@ -8,7 +8,7 @@ def is_prime_rec(x, d):
     return is_prime_rec(x, d + 1)
 
 
-def function1(x):
+def function1(x) ->int:
     if x < 2:
         return 0
     return is_prime_rec(x, 2)
